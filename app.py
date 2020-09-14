@@ -50,11 +50,11 @@ def Donors():
     return render_template("donors.html")
 
 @app.route('/knowledgePartners')
-def Donors():
+def knowledgePartners():
     return render_template("knowledgePartners.html")
 
 @app.route('/partners')
-def Donors():
+def Partners():
     return render_template("partners.html")
 
 if __name__=='__main__':
