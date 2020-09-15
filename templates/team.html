@@ -7,7 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="stylesheet" href="/fonts/icofont/icofont.min.css" />
+    <link rel="stylesheet" href="{{url_for('static', filename = 'fonts/icofont/icofont.min.css')}}" />
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -15,7 +15,7 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="{{url_for('static', filename = 'css/index.css')}}" />
 
     <title>Team</title>
   </head>
@@ -26,31 +26,31 @@
         <div class="row justify-content-center">
           <div class="col-xl-10 d-flex align-items-center">
             <h1 class="logo mr-auto">
-              <a href="index.html">Yuvkrishi<span>.</span></a>
+              <a href="/">Yuvkrishi<span>.</span></a>
             </h1>
 
             <nav class="nav-menu d-none d-lg-block">
               <ul>
-                <li class=""><a href="/index.html">Home</a></li>
+                <li class=""><a href="/">Home</a></li>
                 <li class="drop-down">
-                  <a href="#solutions">Solutions</a>
+                  <a href="/solution">Solutions</a>
                   <ul>
-                    <li><a href="/solutions.html">Farm Social</a></li>
-                    <li><a href="/solutions.html">Farm Cloud</a></li>
-                    <li><a href="/solutions.html">Farm Ployee</a></li>
+                    <li><a href="/solution">Farm Social</a></li>
+                    <li><a href="/solution">Farm Cloud</a></li>
+                    <li><a href="/solution">Farm Ployee</a></li>
                   </ul>
                 </li>
                 <li class="drop-down active">
                   <a href="">About us</a>
                   <ul>
-                    <li><a href="/team.html">Team</a></li>
-                    <li><a href="/journey.html">Journey</a></li>
+                    <li><a href="/team">Team</a></li>
+                    <li><a href="/journey">Journey</a></li>
                     <!-- <li class="drop-down">
                       <a href="#">Partners and Alliances</a>
                       <ul>
-                        <li><a href="/govAlliances.html">Government Alliances</a></li>
-                        <li><a href="/donors.html">Donors</a></li>
-                        <li><a href="/knowledgePartners.html">Knowledge Partners</a></li>
+                        <li><a href="/govAlliancesl">Government Alliances</a></li>
+                        <li><a href="/donors">Donors</a></li>
+                        <li><a href="/knowledgePartners">Knowledge Partners</a></li>
                       </ul>
                     </li> -->
                   </ul>
@@ -76,13 +76,13 @@
             </header>
             <div class="row">
               <div class="col-lg-6" data-aos="zoom-out" data-aos-delay="100">
-                <img src="/images/tabs-1.jpg" class="img-fluid" alt="">
+                <img src="{{url_for('static' , filename = 'images/tabs-1.jpg')}}" class="img-fluid" alt="">
               </div>
               <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
                 <h3>From a variety of backgrounds and disciplines, our team is diverse in almost every way.</h3>
               </div>
             </div>
-    
+
           </div>
         </section>
   <!-- ======= Footer ======= -->
