@@ -37,9 +37,7 @@ def Journey():
 def solution():
     return render_template("solutions.html")
 
-@application.route('/donate')
-def donate():
-    return render_template("donate.html")
+
 
 @application.route('/govtAlliance')
 def Alliances():

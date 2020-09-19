@@ -2,21 +2,21 @@
 /*------------------------ font links ----------------------------------- */
 @font-face {
   font-family: "fondamento";
-  src: url("/fonts/Fondamento/Fondamento-Regular.ttf") format("truetype");
+  src: url("../fonts/Fondamento/Fondamento-Regular.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
   display: swap;
 }
 @font-face {
   font-family: "lato";
-  src: url("/fonts/Lato/Lato-Regular.ttf") format("truetype");
+  src: url("../fonts/Lato/Lato-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   display: swap;
 }
 @font-face {
   font-family: "merry";
-  src: url("/fonts/Merriweather/Merriweather-Light.ttf") format("truetype");
+  src: url("../fonts/Merriweather/Merriweather-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   display: swap;
